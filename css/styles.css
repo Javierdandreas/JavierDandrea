@@ -127,6 +127,7 @@ h1, .h1 {
   }
 }
 
+
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -11578,11 +11579,14 @@ html {
 }
 
 .profile {
+  width: 50%; /* Ajusta el ancho del div según lo necesario */
+  margin: 0 auto; /* Margen automático horizontal */
+  text-align: center; 
   position: relative;
   height: 75vw;
   width: 75vw;
   border-radius: 5vw;
-  margin-top: 5vw;
+  margin-top: 10px;
   max-height: 40rem;
   max-width: 40rem;
 }
